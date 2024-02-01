@@ -21,3 +21,11 @@ The http request payload should contain the following fields:
 An example usage sending a post request to generate a uuid for the provided URL:
 
 `curl -X POST http://localhost:8080/generate -H "Content-Type: application/json" -d '{"url": "https://google.com", "ttl": 60}'`
+
+The response will be a text plain uuid corresponding to the shortened URL.
+
+To use this uuid, you need to browse the following URL:
+
+http://localhost:8080/<uuid>
+
+You will be redirected to the associated URL.
