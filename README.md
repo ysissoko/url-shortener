@@ -26,6 +26,6 @@ The response will be a text plain uuid corresponding to the shortened URL.
 
 To use this uuid, you need to browse the following URL:
 
-http://localhost:8080/<uuid>
+http://localhost:8080/_uuid_
 
 You will be redirected to the associated URL.
